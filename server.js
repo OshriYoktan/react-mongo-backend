@@ -28,7 +28,7 @@ const toyRoutes = require('./api/toy/toyRoutes')
 // routes
 
 
-app.use('/api/toy', toyRoutes)
+app.use('/api/todo', toyRoutes)
 
 // Make every server-side-route to match the index.html
 // so when requesting http://localhost:3030/index.html/car/123 it will still respond with
